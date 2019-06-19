@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>User Profile</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">User Profile</li>
+            </ol>
+        </nav>
+        <div class="text-justify">
+            The users of the application can view and update his/her profile once they create an account and log into the app.
+            The "My Profile" screen has been designed for that purpose. Users have the following ways to customize
+            his/her profile:
+            <ul>
+                <li><mark>They can update the username.</mark></li>
+                <li><mark>They can update the email address, provided "Email login" is used.</mark></li>
+                <li><mark>They can change their existing password, provided "Email login" is used.</mark></li>
+                <li><mark>If "OTP login" is used, they can update their phone number.</mark></li>
+            </ul>
+        </div>
+
+        <p class="text-justify">
+            The following screenshot is for an user account, where "Email login" is used to log into the app.
+        </p>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_email1.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Email-login profile</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <p class="text-justify">
+            The following screenshot is for an user account, where "OTP login" is used to log into the app.
+        </p>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_phone1.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: OTP-login profile</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <p class="text-justify">
+            An "edit" icon is present in the top-right corner of the My Profile screen, a user can update changes by clicking it.
+            To update anything, for example, email address, the user needs to write in the new email address and then
+            press "edit" icon right beside the input field. When it is done the "edit" icon changes to a "check" icon and then a pop-up shows up informing that the operation was successful.
+        </p>
+          <p class="text-justify">
+            In case of updating the existing password, the user has to provide a new password and also a confirm
+            password.
+            Both the passwords need to be strong enough (i.e., a mixture of letters, numbers, etc and atleast 6-character
+            long) and must be the same.
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_email2.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Before Email update</figcaption>
+                </figure>
+            </div>
+       
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_email3.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Email updated</figcaption>
+                </figure>
+            </div>
+        </div>
+
+          <p class="text-justify">
+            When the user login through OTP, he/she can either update their username or the provided phone number. The following screenshots shows the user updating the username:
+        </p>
+
+         <div class="row justify-content-center">
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_phone2.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Before Username update</figcaption>
+                </figure>
+            </div>
+       
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_phone3.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Username updated</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <p class="text-justify">
+            Some security-sensitive actions—such as setting a primary email address, and changing a
+            password—require that the user has recently signed in. If one of these actions is performed, and the user
+            signed in too long ago, the action fails. When this happens, the user must login again and
+            then try the same previous action. For example:
+        </p>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <figure class="figure">
+                    <img src="image/up_error.png" class="figure-img img-fluid img-thumbnail rounded">
+                    <figcaption class="figure-caption">Fig: Update error</figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
